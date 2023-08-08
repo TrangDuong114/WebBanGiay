@@ -1,0 +1,118 @@
+﻿.up {
+    margin: 30px 80px 30px 80px;
+    font-size: 25px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chon {
+    color: #424242;
+    font-size: 19px;
+}
+
+    .chon select {
+        font-size: 15px;
+        color: #A4A4A4;
+    }
+
+.abc a:hover {
+    color: #424242;
+}
+
+/*phần container*/
+/*border: none, hidden, dotted, dashed, solid, double, groove, ridge, inset, outset*/
+.container {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.sidebar_one {
+    flex: 1;
+    margin-right: 15px;
+    box-sizing: border-box;
+}
+
+.sidebar_two {
+    box-sizing: border-box;
+    flex: 3;
+}
+
+.show {
+    border: #E6E6E6 solid 1px;
+    border-radius: 5px;
+    background-color: #F2F2F2;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+    .show li {
+        list-style: none;
+        margin-top: 32px;
+    }
+
+.row_2 {
+    margin-top: 30px;
+}
+
+.show1 {
+    border: #E6E6E6 solid 1px;
+    border-radius: 5px;
+    background-color: #F2F2F2;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+    .show1 ul {
+        margin-left: 0px;
+    }
+
+    .show1 li {
+        list-style: none;
+        margin-top: 25px;
+        color: #6E6E6E;
+    }
+
+.sanpham_show {
+    display: inline-block;
+}
+
+.sanpham_show {
+    margin: 20px 12px;
+    border: #D8D8D8 solid 2px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.sanpham_gia {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+}
+
+.sanpham_gia p {
+    color: red;
+}
+
+.sanpham_click {
+    background-color: coral;
+    margin-top: 8px;
+    margin-left: 50px;
+    max-width: 100px;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 3px 10px;
+    text-align: center;
+}
+
+.sanpham_show img {
+    width: 220px;
+    height: 250px;
+}
